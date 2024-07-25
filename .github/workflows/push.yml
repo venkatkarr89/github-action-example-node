@@ -1,4 +1,4 @@
-on: push
+on: workflow_dispatch
 name: npm build, lint, test and publish
 jobs:
   build-and-publish:
